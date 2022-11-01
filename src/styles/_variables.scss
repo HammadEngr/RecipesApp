@@ -1,0 +1,22 @@
+$colors: (
+  primary: #d62828,
+  primary-light: #d93d3d,
+  secondary: #f77f00,
+  tertiary: #ffaf2e,
+  tertiary-light: #ffa556,
+  primary-black: #353030,
+  primary-grey: #4d3e3e,
+  primary-grey-light: #afaba4,
+);
+$gradientRecipe: radial-gradient(rgb(184, 147, 130), rgb(81, 81, 81));
+$gradient1: linear-gradient(
+  to top left,
+  map-get($colors, primary),
+  map-get($colors, secondary)
+);
+$gradient2: linear-gradient(
+  to bottom right,
+  map-get($colors, tertiary),
+  map-get($colors, tertiary-light)
+);
+$gradientBtn: linear-gradient(to bottom right, #f36841, #fe882d);

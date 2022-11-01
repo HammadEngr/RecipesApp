@@ -1,0 +1,29 @@
+@import "variables";
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 75%;
+  // overflow: hidden;
+}
+body {
+  background-image: $gradient1;
+  background-repeat: no-repeat;
+  font-family: "Nunito Sans", sans-serif;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.main {
+  display: grid;
+  grid-template-columns: 2.4fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "display side1"
+    "display side2"
+    "display side2"
+    "display side2"
+    "display side2";
+}

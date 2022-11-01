@@ -1,0 +1,19 @@
+{
+  "name": "forkify-rebuild-scratch",
+  "version": "1.0.0",
+  "description": "practice-project",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "hammad ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "lodash": "^4.17.21"
+  }
+}

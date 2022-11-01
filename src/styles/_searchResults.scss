@@ -1,0 +1,21 @@
+.search__results {
+  background-color: map-get($colors, secondary);
+  grid-area: side2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  overflow: auto;
+  align-self: center;
+  height: 38rem;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
